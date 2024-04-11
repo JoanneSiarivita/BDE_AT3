@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bde-at3"
+version = "0.1.0"
+description = ""
+authors = ["JoanneSiarivita <142217072+JoanneSiarivita@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "bde_at3"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
