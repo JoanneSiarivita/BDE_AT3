@@ -1,0 +1,9 @@
+{
+	"name": "bde-assignment-3-joanne",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "392d2868-33be-448e-b627-e54fe5ca3b0f",
+		"tenantId": "2904655c-ee8e-4dad-a3d1-863b6fd9f96b"
+	}
+}
