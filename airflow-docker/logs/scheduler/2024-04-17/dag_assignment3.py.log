@@ -1,0 +1,345 @@
+[2024-04-17T15:27:21.097+0000] {processor.py:161} INFO - Started process (PID=14815) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:21.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:27:21.101+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:27:21.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:21.136+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:27:21.126+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:27:21.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:21.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.087 seconds
+[2024-04-17T15:27:52.045+0000] {processor.py:161} INFO - Started process (PID=14874) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:52.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:27:52.049+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:27:52.048+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:52.073+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:27:52.065+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:27:52.076+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:27:52.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.088 seconds
+[2024-04-17T15:28:22.891+0000] {processor.py:161} INFO - Started process (PID=14933) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:22.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:28:22.896+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:28:22.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:22.921+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:28:22.913+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:28:22.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:22.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.077 seconds
+[2024-04-17T15:28:53.745+0000] {processor.py:161} INFO - Started process (PID=14992) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:53.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:28:53.752+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:28:53.751+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:53.775+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:28:53.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:28:53.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:28:53.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.087 seconds
+[2024-04-17T15:29:24.648+0000] {processor.py:161} INFO - Started process (PID=15050) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:24.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:29:24.653+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:29:24.652+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:24.673+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:29:24.667+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:29:24.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:24.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.081 seconds
+[2024-04-17T15:29:55.097+0000] {processor.py:161} INFO - Started process (PID=15110) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:55.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:29:55.107+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:29:55.106+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:55.149+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:29:55.139+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:29:55.151+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:29:55.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.108 seconds
+[2024-04-17T15:30:25.922+0000] {processor.py:161} INFO - Started process (PID=15170) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:25.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:30:25.927+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:30:25.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:25.944+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:30:25.939+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:30:25.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:25.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.068 seconds
+[2024-04-17T15:30:56.507+0000] {processor.py:161} INFO - Started process (PID=15229) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:56.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:30:56.513+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:30:56.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:56.550+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:30:56.540+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:30:56.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:30:56.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.104 seconds
+[2024-04-17T15:31:26.839+0000] {processor.py:161} INFO - Started process (PID=15288) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:26.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:31:26.857+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:31:26.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:26.905+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:31:26.894+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:31:26.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:26.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.118 seconds
+[2024-04-17T15:31:57.261+0000] {processor.py:161} INFO - Started process (PID=15347) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:57.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:31:57.277+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:31:57.276+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:57.379+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:31:57.342+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:31:57.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:31:57.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.591 seconds
+[2024-04-17T15:32:28.441+0000] {processor.py:161} INFO - Started process (PID=15405) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:28.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:32:28.446+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:32:28.446+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:28.469+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:32:28.463+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:32:28.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:28.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.072 seconds
+[2024-04-17T15:32:58.596+0000] {processor.py:161} INFO - Started process (PID=15464) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:58.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:32:58.600+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:32:58.599+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:58.620+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:32:58.615+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:32:58.622+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:32:58.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.062 seconds
+[2024-04-17T15:33:29.291+0000] {processor.py:161} INFO - Started process (PID=15523) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:33:29.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:33:29.295+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:33:29.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:33:29.313+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:33:29.309+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:33:29.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:33:29.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.065 seconds
+[2024-04-17T15:33:59.942+0000] {processor.py:161} INFO - Started process (PID=15583) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:33:59.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:33:59.954+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:33:59.953+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:34:00.036+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:33:59.992+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:34:00.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:34:00.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.175 seconds
+[2024-04-17T15:34:30.665+0000] {processor.py:161} INFO - Started process (PID=15641) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:34:30.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:34:30.670+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:34:30.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:34:30.693+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:34:30.686+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:34:30.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:34:30.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.067 seconds
+[2024-04-17T15:35:01.136+0000] {processor.py:161} INFO - Started process (PID=15700) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:01.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:35:01.141+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:01.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:01.164+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:01.159+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:35:01.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:01.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.069 seconds
+[2024-04-17T15:35:31.265+0000] {processor.py:161} INFO - Started process (PID=15759) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:31.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:35:31.269+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:31.268+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:31.292+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:31.285+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 36, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:35:31.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:31.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.065 seconds
+[2024-04-17T15:35:32.862+0000] {processor.py:161} INFO - Started process (PID=15763) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:32.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:35:32.865+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:32.865+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:33.750+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:35:33.742+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:35:33.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:35:33.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.915 seconds
+[2024-04-17T15:36:04.601+0000] {processor.py:161} INFO - Started process (PID=15822) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:04.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:36:04.605+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:36:04.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:05.294+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:36:05.289+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:36:05.296+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:05.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.719 seconds
+[2024-04-17T15:36:35.469+0000] {processor.py:161} INFO - Started process (PID=15884) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:35.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:36:35.475+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:36:35.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:36.554+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:36:36.544+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:36:36.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:36:36.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 1.122 seconds
+[2024-04-17T15:37:07.494+0000] {processor.py:161} INFO - Started process (PID=15944) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:07.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:37:07.511+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:37:07.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:08.247+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:37:08.241+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:37:08.249+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:08.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.797 seconds
+[2024-04-17T15:37:39.147+0000] {processor.py:161} INFO - Started process (PID=16004) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:39.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:37:39.151+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:37:39.151+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:39.869+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:37:39.863+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:37:39.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:37:39.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.749 seconds
+[2024-04-17T15:38:10.044+0000] {processor.py:161} INFO - Started process (PID=16064) to work on /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:38:10.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_assignment3.py for tasks to queue
+[2024-04-17T15:38:10.048+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:38:10.048+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:38:10.737+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:38:10.732+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_assignment3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_assignment3.py", line 46, in <module>
+    schedule_interval=timedelta(None),
+                      ^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: NoneType
+[2024-04-17T15:38:10.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_assignment3.py
+[2024-04-17T15:38:10.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_assignment3.py took 0.720 seconds
