@@ -11275,3 +11275,59 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.providers.google.cloud.transfers.gcs_to_postgres'
 [2024-04-18T09:47:37.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
 [2024-04-18T09:47:37.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2024-04-18T09:48:19.282+0000] {processor.py:161} INFO - Started process (PID=13153) to work on /opt/airflow/dags/dag.py
+[2024-04-18T09:48:19.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-18T09:48:19.884+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:48:19.593+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-18T09:48:23.071+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:48:22.892+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_postgres import GCSToPostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.google.cloud.transfers.gcs_to_postgres'
+[2024-04-18T09:48:23.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-18T09:48:23.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 4.398 seconds
+[2024-04-18T09:48:57.240+0000] {processor.py:161} INFO - Started process (PID=13212) to work on /opt/airflow/dags/dag.py
+[2024-04-18T09:48:57.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-18T09:48:57.249+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:48:57.247+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-18T09:48:57.453+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:48:57.401+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_postgres import GCSToPostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.google.cloud.transfers.gcs_to_postgres'
+[2024-04-18T09:48:57.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-18T09:48:57.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.352 seconds
+[2024-04-18T09:49:27.686+0000] {processor.py:161} INFO - Started process (PID=13271) to work on /opt/airflow/dags/dag.py
+[2024-04-18T09:49:27.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-18T09:49:27.689+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:49:27.689+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-18T09:49:27.712+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:49:27.706+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_postgres import GCSToPostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.google.cloud.transfers.gcs_to_postgres'
+[2024-04-18T09:49:27.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-18T09:49:27.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.092 seconds
+[2024-04-18T09:49:58.275+0000] {processor.py:161} INFO - Started process (PID=13331) to work on /opt/airflow/dags/dag.py
+[2024-04-18T09:49:58.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-18T09:49:58.278+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:49:58.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-18T09:49:58.305+0000] {logging_mixin.py:188} INFO - [2024-04-18T09:49:58.298+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_postgres import GCSToPostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.google.cloud.transfers.gcs_to_postgres'
+[2024-04-18T09:49:58.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-18T09:49:58.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.071 seconds
