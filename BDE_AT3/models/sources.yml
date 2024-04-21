@@ -1,0 +1,11 @@
+sources:
+  - name: Raw
+    description: Raw data from CSV files
+    database: postgres
+    schema: Raw
+
+    tables:
+      - name: airbnb_listing
+      - name: g01
+      - name: g02
+      - name: nsw_lga
